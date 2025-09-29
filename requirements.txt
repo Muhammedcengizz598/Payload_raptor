@@ -1,0 +1,116 @@
+# ============================================
+# Payload Raptor - Requirements
+# ============================================
+# Geliştirici: Muhammed Cengiz
+# GitHub: https://github.com/Muhammedcengizz598/
+# Versiyon: 3.0.0
+# Lisans: MIT
+# ============================================
+
+# HTTP İstekleri için gerekli kütüphane
+# Web istekleri yapmak ve yanıtları işlemek için kullanılır
+requests>=2.31.0
+
+# Terminal renklendirme kütüphanesi
+# Renkli ve okunabilir terminal çıktıları için
+colorama>=0.4.6
+
+# XML ve HTML parsing kütüphanesi
+# Web sayfalarını parse etmek ve analiz etmek için
+lxml>=4.9.3
+
+# HTTP kütüphanesi (requests tarafından kullanılır)
+# SSL/TLS bağlantıları ve güvenli iletişim için
+urllib3>=2.0.7
+
+# İlerleme çubuğu kütüphanesi
+# Tarama ilerlemesini görselleştirmek için
+tqdm>=4.66.1
+
+# Tablo formatlama kütüphanesi
+# Sonuçları düzenli tablolar halinde g��stermek için
+tabulate>=0.9.0
+
+# ============================================
+# Opsiyonel Bağımlılıklar
+# ============================================
+
+# Gelişmiş HTTP özellikleri için
+# requests-toolbelt>=1.0.0
+
+# JSON işlemleri için (Python 3.7+ ile birlikte gelir)
+# simplejson>=3.19.2
+
+# Gelişmiş loglama için
+# python-json-logger>=2.0.7
+
+# ============================================
+# Geliştirme Bağımlılıkları (Opsiyonel)
+# ============================================
+
+# Kod kalitesi ve linting için
+# pylint>=3.0.0
+# flake8>=6.1.0
+
+# Test için
+# pytest>=7.4.3
+# pytest-cov>=4.1.0
+
+# ============================================
+# Platform Özel Notlar
+# ============================================
+
+# LINUX KURULUMU:
+# pip3 install -r requirements.txt
+# veya
+# python3 -m pip install -r requirements.txt
+
+# TERMUX KURULUMU:
+# pip install -r requirements.txt
+# veya
+# python -m pip install -r requirements.txt
+
+# ============================================
+# Sorun Giderme
+# ============================================
+
+# Eğer kurulum sırasında hata alırsanız:
+# 1. pip'i güncelleyin:
+#    pip install --upgrade pip
+#
+# 2. Sistem paketlerini güncelleyin (Linux):
+#    sudo apt update && sudo apt upgrade
+#
+# 3. Geliştirme araçlarını yükleyin (Linux):
+#    sudo apt install python3-dev build-essential
+#
+# 4. Termux için özel paketler:
+#    pkg install python libxml2 libxslt
+#
+# 5. Manuel kurulum:
+#    pip install requests colorama lxml urllib3 tqdm tabulate
+
+# ============================================
+# Güvenlik Notları
+# ============================================
+
+# Bu araç sadece eğitim ve test amaçlıdır.
+# Yetkisiz sistemlerde kullanmayın.
+# Tüm yasal sorumluluk kullanıcıya aittir.
+
+# ============================================
+# Versiyon Bilgileri
+# ============================================
+
+# Python Minimum Versiyon: 3.7+
+# Önerilen Python Versiyon: 3.9+
+# Test Edilmiş Platformlar:
+#   - Ubuntu 20.04/22.04
+#   - Debian 11/12
+#   - Kali Linux 2023.x
+#   - Termux (Android)
+#   - WSL2 (Windows Subsystem for Linux)
+
+# ============================================
+# Son Güncelleme: 2024
+# ============================================
